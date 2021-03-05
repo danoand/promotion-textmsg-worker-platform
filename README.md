@@ -2,7 +2,7 @@
 
 This repo is a set of web services that stand up "worker" jobs using the [Faktory](https://github.com/contribsys/faktory) worker queuing platform.
 
-These related worker services comprise the "backend" of a text message based marketing application helping small business market and grow their business by tapping into the implicit network of their most valuable current customers.
+These related worker services comprise the "backend" of a text message based marketing application helping small business market and grow their businesses by tapping into the implicit network of their most valuable existing customers.
 
 ### Services
 
