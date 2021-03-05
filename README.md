@@ -10,7 +10,7 @@ Each web service represents a single purpose worker function.  Each service poll
 
 * **Queue Job**: Enqueue a high level text message broadcast task reflecting a client promotion being directed to the client's customer list ranging from one to thousands of recipients
 * **Fire SMS Messages**: Create the promotion text message, a promotion image, and message meta-data and decompose the broadcast into a collection of one or more sub-jobs
-* **Generate QR Codes**: Generate unqiue QR codes for each individual text that when scanned direct the viewer to additional product and promotion detail
+* **Generate QR Codes**: Generate unqiue QR codes for each individual text that when scanned directs the viewer to additional product and promotion detail
 * **Snapshot Process Data**: Take a data "snapshot" of the underlying promotion, product, recipient, and process data and save to the application NoSQL database for analytics and audit purposes
 * **Job Halt Service**: Drain and/or halt remaining jobs if directed by an system administrator (if needed)
 
