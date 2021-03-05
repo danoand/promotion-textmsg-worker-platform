@@ -13,3 +13,8 @@ Each web service represents a single purpose worker function.  Each service poll
 * **Generate QR Codes**: Generate unqiue QR codes for each individual texts that when scanned direct the viewer to additional product and promotion detail
 * **Snapshot Process Data**: Take a data "snapshot" of the underlying promotion, product, recipient, and process data and save to the application NoSQL database for analytics and audit purposes
 * **Job Halt Service**: Drain and/or halt remaining jobs if directed by an system administrator (if needed)
+
+### Recommended Deployment
+
+* Faktory queueing system deployed to a cloud platform (e.g. Digital Ocean droplet)
+* Individual services deployed as long running web services/API(s) to a cloud platform (e.g. individual Heroku web dynos)
