@@ -8,7 +8,7 @@ These related worker service comprise the "backend" of a text message based mark
 
 Each web service represents a single purpose worker function.  Each service polls a cloud based Faktory job queue and triggers a job when work is queued by the main marketing application.  Those workers execute on these tasks:
 
-* **Queue Job**: Enqueue a text message broadcast job reflecting a client promotion directed to the client's customer list
+* **Queue Job**: Enqueue a high level text message broadcast task reflecting a client promotion directed to the client's customer list ranging from one to thousands of recipients
 * **Fire SMS Messages**: Create the promotion text message, image artifact, and meta-data and decompose the broadcast into a collection of one or more sub-jobs
 * **Generate QR Codes**: Generate unqiue QR codes for each individual texts that when scanned direct the viewer to additional product and promotion detail
 * **Snapshot Process Data**: Take a data "snapshot" of the underlying promotion, product, recipient, and process data and save to the application NoSQL database for analytics and audit purposes
